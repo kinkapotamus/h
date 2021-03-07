@@ -147,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private long getLockedPercentage(long totalTimeLockedWithActiveSession) {
-        Date startOfYear = new GregorianCalendar(2020, 0, 1, 0, 0).getTime();
+        Date startOfYear = new GregorianCalendar(2021, 3, 7, 0, 0).getTime();
         Date now = new Date();
         long timeElapsedSinceStartOfYearInMs = now.getTime() - startOfYear.getTime();
 
